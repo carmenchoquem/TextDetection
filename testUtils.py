@@ -3,7 +3,7 @@
 #pip install scipy
 #NOTA: Considerar que para ejecutar correctamente debe posicionarse en el directorio
 # cd ./VisionArtificial
-
+# Deiner Zapata Silva
 from imutils import perspective
 import numpy as np
 import cv2
@@ -57,6 +57,6 @@ def showImagen(pathNameImg):
     
 
 print("Iniciando . . . ")
-showImagen("notecard.png")
+showImagen("images/notecard.png")
 print("continuando con el flujo")
 
